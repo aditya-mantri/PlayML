@@ -1,0 +1,21 @@
+.rows .row {
+  display: inline-block;
+}
+body,
+html {
+  height: 100%;
+}
+
+.bgk {
+  position: absolute;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.vertical-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
